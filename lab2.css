@@ -28,8 +28,9 @@
     flex-direction: row;
     list-style-type: none;
 }
-.heading_elements_menu li {
-    list-style-type: none;
+.heading_elements_menu a {
+    text-decoration: none;
+    color: black;
 }
 
 .heading_elements_button button {
