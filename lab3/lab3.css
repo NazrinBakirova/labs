@@ -688,4 +688,15 @@ text-align: left;
 }
 .eleventh_table_box_email {
     text-align: center;
+    color: #FFFFFF;
+}
+.eleventh_table_box_email input{
+    margin-top: 10px ;
+    padding: 12px 52px;
+    background-color:#FFFFFF;
+    font-size: 14px;
+    color: #D9DBE1;
+    border:none;
+    border-radius: 8px ;
+    opacity: 20%;
 }
