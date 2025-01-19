@@ -640,7 +640,6 @@ border-radius: 16px;
     .sixth_table_data{
         width: 335px;
         height: 590px;
-        display: flex;
         flex-direction: column;
         gap: 24px;
     }
@@ -698,7 +697,6 @@ border-radius: 16px;
     }
 
     .sixth_table_img_box{
-        display: flex;
         flex-direction: column;
         gap: 16px;
     }
@@ -824,8 +822,6 @@ align-items: center;
    gap: 24px;
 }
 .seventh_table_info{
-   
-    display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: center;
@@ -895,7 +891,7 @@ line-height: 28.8px;
         height: 507px;
     }
     .eighth_table_content {
-        display: flex;
+       
         gap: 24px;
         padding: 20px;  
     }
