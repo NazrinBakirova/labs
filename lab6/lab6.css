@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+   .menu{
+    position: absolute;
+    left: -1000px;
+    transition: 1s;
+    width: 300px;
+    height: 930px;
+    background-color: white;
+   }
+  .menu_content {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+   .menu_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .X_button {
+    padding: 20px;
+    background: none;
+    border: none;
+    font-size: 20px;
+  }
+  .searching input{
+    width: 260px;
+    height: 50px;
+    font-size: 20px;
+
+  }
+
+  .menu_items {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   padding-top: 30px;
+   font-size: 30px;
+   list-style: none;
+  }
+
+   .header {
+    width: 430px;
+    height: 100px;
+   }
+
+   .header_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+    .main{
+        display: contents;
+        width: 430px;
+        height: 1000px;
+        font-family: "Host Grotesk", serif;
+      
+    }
+    .container{
+        width: 430px;
+        height: 932px;
+        background-image: url("lab6Img/snowy-mountain-hike-stockcake.jpg");
+       background-size: cover;
+       position: relative;
+    }
+
+     .first_table {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+         width: 350px;
+         text-align: center;
+         margin: 0 auto;
+         color: white;
+     }
+
+     .first_table_header {
+        font-size: 22px;
+        width: 410px;
+        letter-spacing: 5px;
+        font-size:20px;
+     }
+     .first_table_button {
+        padding-top: 20px;
+     }
+     .first_table_button button{
+       padding: 15px 50px;
+       border: none;
+       border-radius: 5px;
+     }
+
+
+    .active {
+        left: 1px;
+       transition: 1s;
+    }
+}
