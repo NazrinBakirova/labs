@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.favoriteList{
+    display: flex;
+  gap: 40px;
+  width: 1000px;
+  height: 500px;
+   margin: 0 auto;
+ 
+
+}
+.container {
+    display: flex;
+    gap: 40px;
+    width: 1000px;
+   height: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.products_item {
+  border: 2px solid rgb(198, 154, 241);
+  color: white;
+  width: 200px;
+  height: 200px;
+  display: flex;
+ align-items: center;
+  text-align: center;
+    background-color:  rgb(165, 206, 242);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+
