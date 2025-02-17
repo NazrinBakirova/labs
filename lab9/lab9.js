@@ -45,7 +45,7 @@ playBtn.addEventListener("click", () => {
 
 
 
-// digital clock
+
 // let timeLine = document.querySelector(".time")
 
 // function updateTime() {
