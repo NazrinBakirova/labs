@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "PT Sans", serif;
+}
+.table{
+   width: 700px;
+   height: 500px;
+   margin: 60px auto;
+}
+.table_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding-top: 100px;
+}
+.table_titles {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.table_second_title {
+    font-size: 20px;
+    
+}
+.table_input input{
+    padding: 10px ;
+    background-color: white;
+    border: none;
+    margin: 22px;
+}
+
+.table_button button{
+    padding: 6px 30px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.guess_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.guess_info :nth-child(1) {
+    display: flex;
+    gap: 5px;
+}
+.guess_info :nth-child(2) {
+    display: flex;
+    gap: 5px;
+}
